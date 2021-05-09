@@ -8,10 +8,13 @@
 Optional: scream (only needed if an audio device isn't being passed through)
 
 # Prepare files for extraction
-Simply extract the zip to somewhere that works for you. The open a terminal and `cd` to the folder. Your folder should contain the following:
+Simply extract the tarball to somewhere that works for you. The open a terminal and `cd` to the folder. Your folder should contain the following:
 * Folders: `etc`, `home`, `usr`
 * `gamingvm.desktop`
 * This readme file
+
+A tar is used instead of repo files so that the executable permissions are already set for you. All you need to do is copy as indicated in the rest of this guide! :)
+
 
 # Why use libvirt hooks?
 Using libvirt hooks allows you to automatically run scripts at different stages of the startup/shutdown phase of your VM. My collection of sripts does the following:
